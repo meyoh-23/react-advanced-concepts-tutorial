@@ -6,7 +6,8 @@ const [value, setValue] = useState(0);
 // implementing the reset Functionality
 const reset = () => {
   setValue(0)
-}
+};
+
   return (
     <>
       <section style={{margin: '4rem 0'}}>
