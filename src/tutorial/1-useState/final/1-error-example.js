@@ -3,9 +3,9 @@ import React from 'react';
 const ErrorExample = () => {
   let title = 'random title';
 
+  // handle click event on BTN
   const handleClick = () => {
     title = 'hello people';
-    console.log(title);
   };
   return (
     <React.Fragment>
