@@ -1,11 +1,13 @@
 import React, { useState, useReducer } from 'react';
 import Modal from './Modal';
 import { data } from '../../../data';
+
 // reducer function
 const reducer = (state, action) => {
   
 }
 
+// the default state object
 const defaultState = {
   people: [],
   isModalOpen: false,
