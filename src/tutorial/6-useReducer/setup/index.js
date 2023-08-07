@@ -21,7 +21,7 @@ const Index = () => {
     e.preventDefault();
 
     // check if the name is suplied
-    if (name) {
+    if (name && name.trim() !== '') {
       const newItem = {id: new Date().getTime().toString(), name}
       dispatch({type:'ADD_ITEM', payload: newItem});
       setName('')
